@@ -1,0 +1,605 @@
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 00:14:18 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 01:50:11 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 01:50:16 INFO  com.app.Main  - Welocme new user,signup :
+[main] 2021-08-17 01:50:16 INFO  com.app.Main  - enter customer id:
+[main] 2021-08-17 01:50:26 INFO  com.app.Main  - enter customer Name:
+[main] 2021-08-17 01:50:34 INFO  com.app.Main  - enter EMail id:
+[main] 2021-08-17 01:50:52 INFO  com.app.Main  - enter correct password:
+[main] 2021-08-17 01:51:04 INFO  com.app.Main  - enter contact number:
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 01:51:41 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 01:51:45 INFO  com.app.Main  - Welocme new user,signup :
+[main] 2021-08-17 01:51:45 INFO  com.app.Main  - enter customer id:
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 01:52:19 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 01:52:22 INFO  com.app.Main  - Welocme new user,signup :
+[main] 2021-08-17 01:52:22 INFO  com.app.Main  - enter customer id:
+[main] 2021-08-17 01:52:28 INFO  com.app.Main  - enter customer Name:
+[main] 2021-08-17 01:52:34 INFO  com.app.Main  - enter EMail id:
+[main] 2021-08-17 01:52:48 INFO  com.app.Main  - enter correct password:
+[main] 2021-08-17 01:52:55 INFO  com.app.Main  - enter contact number:
+[main] 2021-08-17 01:53:08 INFO  com.app.Main  - enter customer address:
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - Signup successfull
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 01:53:34 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 12:03:37 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 12:03:51 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 12:03:52 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 14:32:42 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:19:57 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:20:02 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:22:28 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:22:32 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:22:36 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:22:52 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:23:08 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:23:34 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:23:37 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:28:21 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:28:24 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:28:45 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - Entered password was wrong!Re-enter
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:28:51 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:29:17 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:29:20 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - Entered password was wrong!Re-enter
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:29:32 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:29:40 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:29:49 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - Entered password was wrong!Re-enter
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:30:09 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:30:33 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:31:28 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:31:30 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:32:46 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:32:55 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:33:08 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:33:11 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:33:39 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - Entered password was wrong!Re-enter
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:33:57 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:37:53 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:37:57 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:38:42 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - Entered password was wrong!Re-enter
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:38:58 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:39:55 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:39:59 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:40:24 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:41:34 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:41:40 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:41:58 INFO  com.app.Main  - root
+[main] 2021-08-17 20:41:58 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - Entered password was wrong!Re-enter
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:42:06 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:50:01 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 20:50:04 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 20:50:24 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 20:50:27 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 21:16:56 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 21:17:02 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 21:17:22 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 21:17:25 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  -  Displaying details of all products
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0]
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 21:17:33 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 22:35:55 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 22:36:02 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 22:36:19 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 22:36:21 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  -  Displaying details of all products
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0]
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - Products [pid=2, pname=LG TV, cost=1600.0]
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 22:36:26 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 22:36:47 INFO  com.app.Main  - Adding products to cart:
+[main] 2021-08-17 22:36:47 INFO  com.app.Main  - 103
+[main] 2021-08-17 22:36:47 INFO  com.app.Main  - Enter id of product to be added in cart:
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 22:53:58 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 22:54:02 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 22:54:20 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 22:54:28 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  -  Displaying details of all products
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0]
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - Products [pid=2, pname=LG TV, cost=1600.0]
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 22:54:43 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 22:54:49 INFO  com.app.Main  - Adding products to cart:
+[main] 2021-08-17 22:54:49 INFO  com.app.Main  - Enter id of product to be added in cart:
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:43:02 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:43:05 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 23:43:37 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:43:41 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  -  Displaying details of all products
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0]
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - Products [pid=2, pname=LG TV, cost=1600.0]
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:43:48 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:44:00 INFO  com.app.Main  - Adding products to cart:
+[main] 2021-08-17 23:44:00 INFO  com.app.Main  - Enter id of product to be added in cart:
+[main] 2021-08-17 23:44:10 ERROR com.app.dao.impl.ProductsDAOImpl  - java.sql.SQLException: Column 'name' not found.
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:46:17 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:46:20 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-17 23:46:37 INFO  com.app.Main  - Enter password:
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:46:40 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  -  Displaying details of all products
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0]
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - Products [pid=2, pname=LG TV, cost=1600.0]
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:46:46 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:46:53 INFO  com.app.Main  - Adding products to cart:
+[main] 2021-08-17 23:46:53 INFO  com.app.Main  - Enter id of product to be added in cart:
+[main] 2021-08-17 23:46:59 INFO  com.app.Main  - Enter qunatity:
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - product LG TV is added is cart !!
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:47:02 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:47:14 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:47:14 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 23:47:14 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 23:47:14 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 23:47:14 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 23:47:14 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:47:14 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:47:18 WARN  com.app.Main  - Invalid Search Option... Choice should be only number between 1-4only. Kindly Retry 
+[main] 2021-08-17 23:47:18 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:47:18 INFO  com.app.Main  - |                           |
+[main] 2021-08-17 23:47:18 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-17 23:47:18 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-17 23:47:18 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-17 23:47:18 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:47:18 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 23:47:24 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:03:00 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:03:09 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-18 01:03:28 INFO  com.app.Main  - Enter password:
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - |                           |
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:03:31 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  -  Displaying details of all products
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - java.lang.NullPointerException
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - java.lang.NullPointerException
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - |                           |
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:03:38 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - Items in the cart:
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0,quantity=2]
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - Products [pid=2, pname=LG TV, cost=1600.0,quantity=2]
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - |                           |
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:05:07 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:11:17 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:11:21 INFO  com.app.Main  - Enter email id:
+[main] 2021-08-18 01:11:36 INFO  com.app.Main  - Enter password:
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - Successfully signed in
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - Welcome prathyusha
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - |                           |
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - |1.View Products            |
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - |2.View Orders              |
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - |3.Exit                     |
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:11:40 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  -  Displaying details of all products
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0]
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - Products [pid=2, pname=LG TV, cost=1600.0]
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - |                           |
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:11:46 INFO  com.app.Main  - Enter Ur Choice
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - Items in the cart:
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - Products [pid=1, pname=samsung TV, cost=15000.0,quantity=2]
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - Products [pid=2, pname=LG TV, cost=1600.0,quantity=2]
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - ____________________________
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - |                           |
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - |1.Add products to Cart     |
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - |2.view cart                |
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - |3.Place order              |
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-18 01:11:51 INFO  com.app.Main  - Enter Ur Choice

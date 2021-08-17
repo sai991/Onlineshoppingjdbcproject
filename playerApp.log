@@ -1,0 +1,10 @@
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - Welcome to Mithra Online Shopping portal
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - ***********PLEASE LOGIN ******************
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - ____________________________
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - |1.Employee login           |
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - |2.Customer login           |
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - |3.NewUser? signup!         |
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - |4.Exit                     |
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-17 00:12:23 INFO  com.app.Main  - Enter Ur Choice
