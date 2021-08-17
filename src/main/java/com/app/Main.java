@@ -8,9 +8,11 @@ import org.apache.log4j.Logger;
 
 import com.app.dao.CartDAO;
 import com.app.dao.CustomerDAO;
+import com.app.dao.PlaceOrderDAO;
 import com.app.dao.ProductsDAO;
 import com.app.dao.impl.CartDAOImpl;
 import com.app.dao.impl.CustomerDAOImpl;
+import com.app.dao.impl.PlaceOrderImpl;
 import com.app.dao.impl.ProductsDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.model.Customer;
@@ -123,12 +125,19 @@ public class Main {
 								break;
 							case 2:log.info("Items in the cart:");
 							       CartDAO dd=new CartDAOImpl();
-							       List<Temp> products=dd.getAllItemsInCart(cid);
+							        List<Temp> products=dd.getAllItemsInCart(cid);
 							       for(Temp i:products) {
 							    	   log.info(i);
 							       }
-								break;
+							break;
 							case 3:log.info("placing ur order");
+							CartDAO ca=new CartDAOImpl();
+					        List<Temp> products3=ca.getAllItemsInCart(cid);
+							       PlaceOrderDAO placeorder=new PlaceOrderImpl();
+							       double n=placeorder.placingOrder(products3);
+							       
+							
+							
 							       
 								break;
 							case 4:
