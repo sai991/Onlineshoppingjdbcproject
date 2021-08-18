@@ -66,7 +66,16 @@ public class CartDAOImpl implements CartDAO {
 
 	@Override
 	public void deleteCartById(int cid) throws BusinessException {
-		// TODO Auto-generated method stub
+		try (Connection connection = MySqlDbConnection.getConnection()) {
+			String sql = "delete from cart where cid=?";
+
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1,cid);
+			preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);// this will be replaced by logger
+			throw new BusinessException("Internal error occured, please contact support");
+		}
 		
 	}
 

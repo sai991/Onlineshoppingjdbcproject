@@ -87,7 +87,53 @@ public class PlaceOrderImpl implements PlaceOrderDAO {
 	}
 	@Override
 	public List<PlaceOrder> getOrdersById(int cid) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		List<PlaceOrder> orderList = new ArrayList<>();
+		try (Connection connection = MySqlDbConnection.getConnection()) {
+			String sql = "select oid,cid,pid,pname,cost,quantity,orderShipped,orderReceived from orders where cid=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1,cid);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while (resultSet.next()) {
+				PlaceOrder product = new PlaceOrder();
+				product.setOid(resultSet.getInt("oid"));
+				product.setCid(resultSet.getInt("cid"));
+				product.setPid(resultSet.getInt("pid"));
+				product.setPname(resultSet.getString("pname"));
+				product.setCost(resultSet.getDouble("cost"));
+				product.setQuantity(resultSet.getInt("quantity"));
+				product.setOrderShipped(resultSet.getString("orderShipped"));
+				product.setOrderReceived(resultSet.getString("orderReceived"));
+				orderList.add(product);
+				
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// this will be replaced by logger
+			throw new BusinessException("Internal error occured, please contact support");
+		}
+
+		return orderList;
+
 	}
+	@Override
+	public int markOrderReceive(int oid) throws BusinessException {
+		String mark = "true";
+		int c = 0;
+		try (Connection connection = MySqlDbConnection.getConnection()) {
+			String sql = "update orders set orderReceived=? where oid=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+			preparedStatement.setString(1, mark);
+			preparedStatement.setInt(2, oid);
+
+			c = preparedStatement.executeUpdate();
+
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);// this will be replaced by logger
+			throw new BusinessException("Internal error occured, please contact support");
+		}
+
+		return c;
+	
+	}
+	
 	}
