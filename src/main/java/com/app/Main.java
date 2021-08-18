@@ -16,6 +16,7 @@ import com.app.dao.impl.PlaceOrderImpl;
 import com.app.dao.impl.ProductsDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.model.Customer;
+import com.app.model.PlaceOrder;
 import com.app.model.Products;
 import com.app.model.Temp;
 import com.app.service.valid.LoginValidation;
@@ -24,9 +25,10 @@ import com.app.service.valid.impl.LoginValidationImpl;
 
 
 public class Main {
+	public static int cid=0;
 	private static Logger log = Logger.getLogger(Main.class);
 	public static void main(String[] args) throws BusinessException {
-		
+		final int empid=999;
 		Scanner sc = new Scanner(System.in);
 		int ch=0;
 		do
@@ -47,7 +49,104 @@ public class Main {
 			log.warn(e);
 		}
 		switch (ch) {
-		case 1:
+		case 1:int j=0,eid=0;
+		       log.info("Enter employee id:");
+		       eid=Integer.parseInt(sc.nextLine());
+		       if(empid==eid) {
+		    	   log.info("Welcome to Online shopping portal");
+		    	   do {
+		    		    log.info("____________________________");	 
+				    	log.info("|                           |");	 
+				 		log.info("|1.Add products             |");
+						log.info("|2.view products            |");
+						log.info("|3.All orders               |");
+						log.info("|4.Search customers         |");
+						log.info("|5.Exit                     |");
+						log.info("|___________________________|");
+						log.info("Enter Ur Choice");
+						j=Integer.parseInt(sc.nextLine());
+						switch(j) {
+						case 1:
+						      ProductsDAO pp=new ProductsDAOImpl();
+						      Products p=new Products();
+						      log.info("Add products ");
+						      log.info("Enter product id");
+						      p.setPid(Integer.parseInt(sc.nextLine()));
+						      log.info("Enter product name");
+						      p.setPname(sc.nextLine());
+						      log.info("Enter product cost");
+						      p.setCost(Integer.parseInt(sc.nextLine()));
+						      int l=pp.insertIntoProducts(p);
+						      if(l==1) {
+						    	  log.info("Product added successfully");  
+						      }
+						      else {
+						    	  log.info("Failed in adding product");
+						      }
+							break;
+						case 2:log.info(" Displaying details of all products");
+					       List<Products> product=new ArrayList();
+					       ProductsDAO pd=new ProductsDAOImpl();
+					       product=pd.getAllProducts();
+					       for(Products i:product) {
+					    	   log.info(i);
+					       }
+							break;
+						case 3:log.info("Displaying all the orders:");
+						       List<PlaceOrder> orders=new ArrayList();
+						       PlaceOrderDAO pad=new PlaceOrderImpl();
+						       orders=pad.displayOrders();
+						       for(PlaceOrder i:orders) {
+						    	   log.info(i);
+						       }
+						       
+							break;
+						case 4:log.info("Searching customers:");
+						       int option=0;
+						       do { 
+						    	log.info("__________________________________");	 
+						    	log.info("|                                 |");	 
+						 		log.info("|1.Search by Customer id          |");
+								log.info("|2.Search by customer name        |");
+								log.info("|3.Search by customer contact     |");
+								log.info("|4.Search by emailid              |");
+								log.info("|5.Exit                           |");
+								log.info("|_________________________________|");
+								log.info("Enter Ur Choice");
+								option=Integer.parseInt(sc.nextLine());
+								switch(option) {
+								case 1:
+									break;
+								case 2:
+									break;
+								case 3:
+									break;
+								case 4:
+									break;
+								case 5:
+									break;
+									default:
+										break;
+										
+								}
+						    	   
+						       }while(option!=5);
+							break;
+						case 5:
+							break;
+							default:
+								break;
+								
+						}
+						
+		    		   
+		    	   }while(j!=5);
+		    	   
+		    	   
+		       }else
+		       {
+		    	   log.info("Invalid login id,Access denied ");
+		       }
 			
 			
 			break;
@@ -56,7 +155,7 @@ public class Main {
 		       LoginValidation a=new LoginValidationImpl();
 		       Customer customer1=new Customer();
 		       customer1= a.isValidUser(email);
-		       final int cid=customer1.getCid();
+		        cid=customer1.getCid();
 		       log.info("Enter password:");
 		       String pass=sc.nextLine();
 		       String d=customer1.getPassword();
@@ -132,15 +231,13 @@ public class Main {
 							break;
 							case 3:log.info("placing ur order");
 							CartDAO ca=new CartDAOImpl();
-					        List<Temp> products3=ca.getAllItemsInCart(cid);
+							List<Temp> products3=new ArrayList();
+					           products3=ca.getAllItemsInCart(cid);
 							       PlaceOrderDAO placeorder=new PlaceOrderImpl();
-							       double n=placeorder.placingOrder(products3);
-							       
-							
-							
-							       
+							       double n=placeorder.placingOrder(products3,cid);
+							       log.info("Total cost:"+n);
 								break;
-							case 4:
+							case 4:log.info("Returning to main menu" );
 								break;
 							default:
 								log.warn(
@@ -151,15 +248,18 @@ public class Main {
 				       }while(z!=4);
 				       
 					break;
-				case 2:
+				case 2:log.info("Displaying orders:");
+				      List<PlaceOrder> po=new ArrayList();
+				       PlaceOrderDAO kk=new PlaceOrderImpl();
+				      po= kk.getOrdersById(cid);
+					
 					break;
-				case 3:
+				case 3:log.info("Returning to main menu :");
 
 					break;
-				
 				default:
 					log.warn(
-							"Invalid Search Option... Choice should be only number between 1-4only. Kindly Retry ");
+							"Invalid Search Option... Choice should be only number between 1-3only. Kindly Retry ");
 					break;
 				}
 

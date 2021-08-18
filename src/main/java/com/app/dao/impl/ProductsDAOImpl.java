@@ -70,6 +70,24 @@ public class ProductsDAOImpl implements ProductsDAO {
 		return product;
 		
 	}
+
+
+	@Override
+	public int insertIntoProducts(Products product) throws BusinessException {
+		int c=0;
+		try (Connection connection = MySqlDbConnection.getConnection()) {
+			String sql = "insert into products(pid,pname,cost) values(?,?,?)"; 
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1,product.getPid());
+			preparedStatement.setString(2,product.getPname());
+			preparedStatement.setDouble(3,product.getCost());
+			c = preparedStatement.executeUpdate();
+		 }catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);// this will be replaced by logger
+			throw new BusinessException("Internal error occured, please contact support");
+		}
+		return c;
+	}
 		
 	
 
