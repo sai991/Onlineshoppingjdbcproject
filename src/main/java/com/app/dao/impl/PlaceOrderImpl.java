@@ -25,8 +25,8 @@ public class PlaceOrderImpl implements PlaceOrderDAO {
 	public double placingOrder(List<Temp> products,int cid) throws BusinessException {
 		double totalcost = 0;
 		int a=0;
-		boolean orderShipped=false;
-		boolean orderReceived=false;
+		String orderShipped="false";
+		String orderReceived="false";
 		try (Connection connection = MySqlDbConnection.getConnection()) {
 			String sql = "insert into orders(cid,pid,pname,cost,quantity,orderShipped,orderReceived) values(?,?,?,?,?,?,?)"; 
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -36,8 +36,8 @@ public class PlaceOrderImpl implements PlaceOrderDAO {
 			preparedStatement.setString(3,products.get(i).getPname());
 			preparedStatement.setDouble(4,products.get(i).getCost());
 			preparedStatement.setInt(5,products.get(i).getCart().getQuantity());
-			preparedStatement.setBoolean(6,orderShipped);
-			preparedStatement.setBoolean(7,orderReceived);
+			preparedStatement.setString(6,orderShipped);
+			preparedStatement.setString(7,orderReceived);
 			totalcost=totalcost+(products.get(i).getCost())*(products.get(i).getCart().getQuantity());
 			int c = preparedStatement.executeUpdate();
 		     a=a+c;
@@ -112,28 +112,58 @@ public class PlaceOrderImpl implements PlaceOrderDAO {
 		}
 
 		return orderList;
-
+		
 	}
 	@Override
 	public int markOrderReceive(int oid) throws BusinessException {
 		String mark = "true";
+		String mark2 = "true";
+		PlaceOrder product = new PlaceOrder();
 		int c = 0;
-		try (Connection connection = MySqlDbConnection.getConnection()) {
-			String sql = "update orders set orderReceived=? where oid=?";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+		
+		try (Connection connection1 = MySqlDbConnection.getConnection()) {
+			String sql1 = "update orders set orderReceived=? where oid=?";
+			PreparedStatement preparedStatement1 = connection1.prepareStatement(sql1);
 
-			preparedStatement.setString(1, mark);
-			preparedStatement.setInt(2, oid);
+			preparedStatement1.setString(1, mark2);
+			preparedStatement1.setInt(2, oid);
 
-			c = preparedStatement.executeUpdate();
+			c = preparedStatement1.executeUpdate();
 
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);// this will be replaced by logger
+			log.info(e);
 			throw new BusinessException("Internal error occured, please contact support");
 		}
-
+	
+	
+	
 		return c;
 	
+	}
+	@Override
+	public String isOrderShipped(int oid) throws BusinessException {
+		PlaceOrder product = new PlaceOrder();
+		try (Connection connection = MySqlDbConnection.getConnection()) {
+			String sql = "select oid,cid,pid,pname,cost,quantity,orderShipped from orders where oid=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, oid);
+			ResultSet resultSet= preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				
+				product.setOid(resultSet.getInt("oid"));
+				product.setCid(resultSet.getInt("cid"));
+				product.setPid(resultSet.getInt("pid"));
+				product.setPname(resultSet.getString("pname"));
+				product.setCost(resultSet.getDouble("cost"));
+				product.setQuantity(resultSet.getInt("quantity"));
+				product.setOrderShipped(resultSet.getString("orderShipped"));
+				
+			}
+		}catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occured, please contact support");
+		}
+		return product.isOrderShipped();
 	}
 	
 	}

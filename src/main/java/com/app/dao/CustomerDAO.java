@@ -6,4 +6,5 @@ import com.app.model.Customer;
 public interface CustomerDAO {
 	
 	public int createPlayer(Customer customer) throws BusinessException;
+	public Customer isValidUser(String s) throws BusinessException;
 }

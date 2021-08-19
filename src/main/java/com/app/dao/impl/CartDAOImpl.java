@@ -38,7 +38,7 @@ public class CartDAOImpl implements CartDAO {
 	public List<Temp> getAllItemsInCart(int id) throws BusinessException {
 		List<Temp> playerList = new ArrayList<>();
 		try (Connection connection = MySqlDbConnection.getConnection()) {
-			String sql = "select p.pid,pname,cost,quantity from products p join cart on cart.cid=?";
+			String sql = "select p.pid,pname,cost,quantity from products p join cart on cart.pid=p.pid and cart.cid=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1,id);	
 			ResultSet resultSet = preparedStatement.executeQuery();

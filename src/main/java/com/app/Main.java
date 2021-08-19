@@ -62,9 +62,8 @@ public class Main {
 						log.info("|                           |");
 						log.info("|1.Add products             |");
 						log.info("|2.view products            |");
-						log.info("|3.All orders               |");
-						log.info("|4.View customers           |");
-						log.info("|5.Exit                     |");
+						log.info("|3.Order Status             |");
+						log.info("|4.Exit                     |");
 						log.info("|___________________________|");
 						log.info("Enter Ur Choice");
 						j = Integer.parseInt(sc.nextLine());
@@ -94,6 +93,53 @@ public class Main {
 							for (Products i : product) {
 								log.info(i);
 							}
+							int kli=0;
+							do {log.info("______________________________________");
+							log.info("|                                        |");
+							log.info("|1.Search product  by Name               |");
+							log.info("|2.Search product by id                  |");
+							log.info("|3.Exit                                  |");
+							log.info("|________________________________________|");
+							log.info("Enter Ur Choice");
+							kli = Integer.parseInt(sc.nextLine());
+							switch (kli) {
+							case 1:
+								EmployeDAO lkm=new EmployeDAOImpl();
+								List<Products> lpm=new ArrayList();
+								log.info("Enter product name :");
+								String name=sc.nextLine();
+								lpm=lkm.getProductByName(name);
+								if(lpm!=null&&lpm.size()>0) {
+								for(Products i:lpm) {
+									log.info(i);
+								}}
+								else {
+									log.info("NO product found with this name...Try again");
+								}
+									
+
+								break;
+							case 2:EmployeDAO lm=new EmployeDAOImpl();
+							List<Products> llm=new ArrayList();
+							log.info("Enter product id :");
+							int id=Integer.parseInt(sc.nextLine());
+							llm=lm.getProductById(id);
+							if(llm!=null&&llm.size()>0) {
+							for(Products i:llm) {
+								log.info(i);
+							}}
+							else {
+								log.info("NO product found with this name...Try again");
+							}
+								
+								break;
+							default:
+								log.warn(
+										"Invalid Search Option... Choice should be only number between 1-3only. Kindly Retry ");
+								break;
+								
+							}
+							}while(kli!=3);
 							break;
 						case 3:
 							log.info("Displaying all the orders:");
@@ -121,8 +167,15 @@ public class Main {
 									ev.isValidOid(shp);
 
 									break;
-								case 2:
+								case 2:log.info("Products that are delivered successfully:");
+								        EmployeDAO edao=new EmployeDAOImpl();
+								        List<PlaceOrder> lpo=new ArrayList();
+								       lpo= edao.ordersReceivedByCustomer();
+								       for(PlaceOrder i:lpo) {
+								    	   log.info("orderId= "+i.getOid()+" productId= "+i.getPid()+" productName "+i.getPname()+" totalCost "+i.getCost()+" has been delivered to the address "+i.isOrderReceived()+" successfulyy");
+								       }
 									break;
+								case 3:log.info("Returning to main menu:");
 								default:
 									log.warn(
 											"Invalid Search Option... Choice should be only number between 1-3only. Kindly Retry ");
@@ -131,46 +184,15 @@ public class Main {
 							} while (opt != 3);
 
 							break;
-						case 4:
-							log.info("Searching customers:");
-							int option = 0;
-							do {
-								log.info("__________________________________");
-								log.info("|                                 |");
-								log.info("|1.Search by Customer id          |");
-								log.info("|2.Search by customer name        |");
-								log.info("|3.Search by customer contact     |");
-								log.info("|4.Search by emailid              |");
-								log.info("|5.Exit                           |");
-								log.info("|_________________________________|");
-								log.info("Enter Ur Choice");
-								option = Integer.parseInt(sc.nextLine());
-								switch (option) {
-								case 1:
-									break;
-								case 2:
-									break;
-								case 3:
-									break;
-								case 4:
-									break;
-								case 5:
-									break;
-								default:
-									break;
-
-								}
-
-							} while (option != 5);
+						
+						case 4:log.info("Returning to main menu:");
 							break;
-						case 5:
-							break;
-						default:
+						default:log.info("Invalid search option... Choice should be only number between 1-3only. Kindly Retry");
 							break;
 
 						}
 
-					} while (j != 5);
+					} while (j != 4);
 
 				} else {
 					log.info("Invalid login id,Access denied ");
@@ -182,14 +204,18 @@ public class Main {
 				String email = sc.nextLine();
 				LoginValidation a = new LoginValidationImpl();
 				Customer customer1 = new Customer();
-				customer1 = a.isValidUser(email);
+				try{customer1 = a.isValidUser(email);
 				cid = customer1.getCid();
+				String d = customer1.getPassword();}
+				catch(NullPointerException e) {
+				log.warn("Invalid email id,retry:");
+				break;}	
 				log.info("Enter password:");
 				String pass = sc.nextLine();
-				String d = customer1.getPassword();
+				
 				if (customer1.getPassword().equals(pass)) {
 					log.info("Successfully signed in");
-					log.info("Welcome " + customer1.getCname());
+					log.info("Welcome " + customer1.getCname());int opti=0;
 					do {
 						log.info("____________________________");
 						log.info("|                           |");
@@ -200,12 +226,12 @@ public class Main {
 						log.info("|___________________________|");
 						log.info("Enter Ur Choice");
 						try {
-							ch = Integer.parseInt(sc.nextLine());
+							opti = Integer.parseInt(sc.nextLine());
 						} catch (NumberFormatException e) {
 							log.warn(e);
 						}
 
-						switch (ch) {
+						switch (opti) {
 						case 1:
 							log.info(" Displaying details of all products");
 							List<Products> product = new ArrayList();
@@ -215,6 +241,7 @@ public class Main {
 								log.info(i);
 							}
 							int z = 0;
+						
 							do {
 								log.info("____________________________");
 								log.info("|                           |");
@@ -279,13 +306,11 @@ public class Main {
 									log.info("Returning to main menu");
 									break;
 								default:
-									log.warn(
-											"Invalid Search Option... Choice should be only number between 1-4only. Kindly Retry ");
+									log.warn("Invalid Search Option... Choice should be only number between 1-4only. Kindly Retry ");
 									break;
 								}
 
-							} while (z != 4);
-
+							}while (z!= 4);
 							break;
 						case 2:
 							List<PlaceOrder> po = new ArrayList();
@@ -301,19 +326,25 @@ public class Main {
 							}
 
 							break;
-						case 3:
+						case 3:String mark="true";
 							log.info("enter id of order to be marked as received");
 							int oid = Integer.parseInt(sc.nextLine());
 							PlaceOrderDAO placeorder = new PlaceOrderImpl();
+							String op=placeorder.isOrderShipped(oid);
+							if(op.equals(mark)) {
 							int x = placeorder.markOrderReceive(oid);
 							if (x == 1) {
 								log.info("order with id " + oid + " has been marked received successfully");
 							} else {
 								log.info("Failed to mark it,some internal error occur");
+							}}
+							else
+							{
+								log.info("Oops the order is not yet shipped!! Try again");
 							}
 							break;
 						case 4:
-							log.info("Returning to main menu :");
+							log.info("Returning to main :");
 
 							break;
 						default:
@@ -321,8 +352,10 @@ public class Main {
 									"Invalid Search Option... Choice should be only number between 1-4only. Kindly Retry ");
 							break;
 						}
+						
+					
 
-					} while (ch != 3);
+					} while (opti!= 4);
 
 				} else {
 					log.info("Entered password was wrong!Re-enter");
@@ -347,20 +380,9 @@ public class Main {
 				customer.setAddress(sc.nextLine());
 				CustomerDAO customerdao = new CustomerDAOImpl();
 				int k = lv.isValidLogin(customer);
-				if (k == 1) {
-					int c = customerdao.createPlayer(customer);
-					if (c == 1) {
-						log.info("Signup successfull");
-						log.info("Re-Login to use the app");
-					} else {
-						log.info("singn up failed,Kindly retry");
-					}
-				} else {
-					log.info("Invaled credentials Re-login again");
-				}
 
 				break;
-			case 4:
+			case 4:log.info("Logging off:");
 
 				break;
 
