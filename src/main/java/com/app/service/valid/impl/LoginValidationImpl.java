@@ -1,3 +1,5 @@
+
+  
 package com.app.service.valid.impl;
 
 import java.sql.Connection;
@@ -37,7 +39,7 @@ public class LoginValidationImpl implements LoginValidation {
 		if(c==1) {
 			CustomerDAO customerdao=new CustomerDAOImpl();
 				 try {
-					k = customerdao.createPlayer(customer);
+					k = customerdao.createCustomer(customer);
 				} catch (BusinessException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

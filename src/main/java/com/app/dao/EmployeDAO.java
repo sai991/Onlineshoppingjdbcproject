@@ -10,5 +10,5 @@ public interface EmployeDAO {
 	public List<PlaceOrder> ordersReceivedByCustomer()throws BusinessException;
 	public List<Products> getProductByName(String name)throws BusinessException;
 	public List<Products> getProductById(int id)throws BusinessException;
-
+    public int updateCost(int pid,double cost)throws BusinessException;
 }

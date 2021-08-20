@@ -122,4 +122,21 @@ public class EmployeDAOImpl implements EmployeDAO {
 	
 	}
 
+	@Override
+	public int updateCost(int pid,double cost) throws BusinessException {
+		int c=0;
+		try (Connection connection = MySqlDbConnection.getConnection()) {
+			String sql = "update products set cost=? where pid=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setDouble(1,cost);
+			preparedStatement.setInt(2,pid);
+			c= preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);// this will be replaced by logger
+			throw new BusinessException("Internal error occured, please contact support");
+		}
+		return c;
+	}
+
 }

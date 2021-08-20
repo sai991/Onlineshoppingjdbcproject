@@ -13,7 +13,7 @@ import com.app.model.Customer;
 public class CustomerDAOImpl implements CustomerDAO {
 
 	@Override
-	public int createPlayer(Customer customer) throws BusinessException {
+	public int createCustomer(Customer customer) throws BusinessException {
 		int c = 0;
 		try (Connection connection = MySqlDbConnection.getConnection()) {
 			String sql = "insert into customer(cid,cname,emailid,password,contact,address) values(?,?,?,?,?,?)";
