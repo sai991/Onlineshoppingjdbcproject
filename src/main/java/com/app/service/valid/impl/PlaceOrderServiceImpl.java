@@ -31,7 +31,7 @@ public class PlaceOrderServiceImpl implements PlaceOrderService {
 
 	@Override
 	public List<PlaceOrder> displayOrders() throws BusinessException {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 

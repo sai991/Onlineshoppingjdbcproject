@@ -11,7 +11,7 @@ import com.app.model.Customer;
 import project1.*;
 class Createcustomer {
 CustomerDAO cd=new CustomerDAOImpl();
-Customer customer2=new Customer(993,"vyshu","vyshu@gmail.com","vyshu",999999998,"dno:98,hyderabad");
+Customer customer2=new Customer(875,"vyshu","vyshu@gmail.com","vyshu",99999998,"dno:98,hyderabad");
 
 @Test
 	void test() throws BusinessException {
@@ -24,7 +24,7 @@ Customer customer2=new Customer(993,"vyshu","vyshu@gmail.com","vyshu",999999998,
 	
 
 	try
-	{assertEquals(1,cd.createCustomer(customer2));}
+	{assertEquals(0,cd.createCustomer(customer2));}
 	catch(Exception e) {
 		fail("Duplicate entry");
 	}
